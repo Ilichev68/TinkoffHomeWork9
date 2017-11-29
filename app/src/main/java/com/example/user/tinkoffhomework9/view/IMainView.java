@@ -10,7 +10,6 @@ import java.util.List;
 
 public interface IMainView {
 
-    void getListForRV(List<TinkoffNews> news);
-    void update();
+    void showNews(List<TinkoffNews> news);
     void showError();
 }
